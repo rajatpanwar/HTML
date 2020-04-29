@@ -1,0 +1,59 @@
+<html>
+ <head> 
+       <title>Border</title>
+       
+
+       <style type="text/css">
+          #one {
+                    background-color:orange;   
+                                     
+                }
+          #two {
+                   background-color: gray;
+                   //border: dashed;
+                }
+        
+          #three {
+                      background-color: yellow;
+                        
+                  }    
+ 
+             .common {
+                        width: 100px;
+                        height: 250px;
+                      //   border-style:dotted; 
+                        border-color: red; 
+                        font-size:95%;
+                         font-weight: bold; 
+                          font-style: italic;
+                          // text-decoration:underline;
+                           font-family:verdana, Times, serif;
+                       } 
+                      a {                           //remove the underline from link
+                           text-decoration:none;
+                         }
+                        
+                     a:hover {                           //when we click on the link underline visible and when we remove the cursor from link underline invisible 
+                                text-decoration:underline;
+                               }
+               
+       </style>
+
+
+</head>
+<body>
+     <div id="one" class="common">
+          <p> be yourself everyone has already taken<span style="text-decoration:underline">we can use this tag to highlight some line of pragraph</p>
+           <a href="www.google.com">this is a google link</a>
+     </div>
+           
+     <div id="two" class="common">
+           <p> be yourself everyone has already taken</p>
+     </div>
+
+     <div id="three" class="common">
+                <p> be yourself everyone has already taken</p>
+     </div>
+</body>
+
+</html>
