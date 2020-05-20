@@ -1,0 +1,20 @@
+<html>
+      <head>
+	      <title>
+		      variable
+		  </title>
+	  </head>
+	  
+<body>
+     <input type="text" id="textinput">
+	 <button id="changer">chage the text!</button>
+	 <p id="demo">this is some text</p>
+	 <script type="text/javascript">
+	     document.getElementById("changer").onclick = function(){
+		 var textEntered = "";
+		 textEntered = document.getElementById("textinput").value;  
+		 document.getElementById("demo").innerHTML = textEntered;}
+	 </script>
+</body>	  
+	  
+</html>
