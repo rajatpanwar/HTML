@@ -8,7 +8,7 @@ background-color:brown;
 width:300px;
 height:1000px;
 position:absolute;                          //positioning is of three types-relative, absolute and fixed
-top:200px;
+top:200px;                                 //relative positioning takes care of other elements also, absolute does not care about any other element and fixed will remain to the same position even after scrolling the page.
 opacity:0.5;
 }
 
