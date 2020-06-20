@@ -2,3 +2,12 @@
 <head>
 <title> Positioning </title>
 <style>
+
+#first-div{
+background-color:brown;
+width:300px;
+height:1000px;
+position:absolute;
+top:200px;
+opacity:0.5;
+}
